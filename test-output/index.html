@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WordPress_Automation_Suite">
+              <span class="suite-name border-failed">WordPress Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WordPress_Automation_Suite">
+                    <span>D:\Selenium\ProjectSpace\WordPress\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WordPress_Automation_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WordPress_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WordPress_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WordPress_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WordPress_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WordPress_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 1 failed,  3 skipped,  21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WordPress_Automation_Suite" class="hide-methods failed suite-WordPress_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-WordPress_Automation_Suite -->
+                      <a href="#" panel-name="suite-WordPress_Automation_Suite" class="show-methods failed suite-WordPress_Automation_Suite"> (show)</a> <!-- show-methods failed suite-WordPress_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-WordPress_Automation_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WordPress_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-WordPress_Automation_Suite" class="hide-methods skipped suite-WordPress_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-WordPress_Automation_Suite -->
+                      <a href="#" panel-name="suite-WordPress_Automation_Suite" class="show-methods skipped suite-WordPress_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-WordPress_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-WordPress_Automation_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-WordPress_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WordPress_Automation_Suite" class="hide-methods passed suite-WordPress_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-WordPress_Automation_Suite -->
+                      <a href="#" panel-name="suite-WordPress_Automation_Suite" class="show-methods passed suite-WordPress_Automation_Suite"> (show)</a> <!-- show-methods passed suite-WordPress_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-WordPress_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="backToHomePage">backToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="clickContineButton">clickContineButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="continueButton">continueButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="continueGoogleButton">continueGoogleButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="emailAdressTest">emailAdressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="emailMeLink">emailMeLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="enterEmailAdressTest">enterEmailAdressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="featureLinkTest">featureLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="getStartedLinkClick">getStartedLinkClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="goBackToHomePage">goBackToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="loginAccountHeaderTest">loginAccountHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="loginLinkClick">loginLinkClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="loginPageWPLogoTest">loginPageWPLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="lostPasswordLink">lostPasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="plansAndPricingTest">plansAndPricingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="productLinkTest">productLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="resourcesLinkTest">resourcesLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.LoginPageTest" hash-for-method="signUpLinkTest">signUpLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="startYourWebsiteButtonClick">startYourWebsiteButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WordPress_Automation_Suite" title="com.gazt.testcases.HomePageTest" hash-for-method="wordPressLogoTest">wordPressLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WordPress_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WordPress_Automation_Suite" class="panel WordPress_Automation_Suite">
+          <div class="suite-WordPress_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.gazt.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:52)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WordPress_Automation_Suite-class-failed -->
+          <div class="suite-WordPress_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.gazt.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:52)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:52)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:52)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WordPress_Automation_Suite-class-skipped -->
+          <div class="suite-WordPress_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gazt.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="backToHomePage">
+                  </a> <!-- backToHomePage -->
+                  <span class="method-name">backToHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickContineButton">
+                  </a> <!-- clickContineButton -->
+                  <span class="method-name">clickContineButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueButton">
+                  </a> <!-- continueButton -->
+                  <span class="method-name">continueButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueGoogleButton">
+                  </a> <!-- continueGoogleButton -->
+                  <span class="method-name">continueGoogleButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailAdressTest">
+                  </a> <!-- emailAdressTest -->
+                  <span class="method-name">emailAdressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailMeLink">
+                  </a> <!-- emailMeLink -->
+                  <span class="method-name">emailMeLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmailAdressTest">
+                  </a> <!-- enterEmailAdressTest -->
+                  <span class="method-name">enterEmailAdressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goBackToHomePage">
+                  </a> <!-- goBackToHomePage -->
+                  <span class="method-name">goBackToHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAccountHeaderTest">
+                  </a> <!-- loginAccountHeaderTest -->
+                  <span class="method-name">loginAccountHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageWPLogoTest">
+                  </a> <!-- loginPageWPLogoTest -->
+                  <span class="method-name">loginPageWPLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lostPasswordLink">
+                  </a> <!-- lostPasswordLink -->
+                  <span class="method-name">lostPasswordLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpLinkTest">
+                  </a> <!-- signUpLinkTest -->
+                  <span class="method-name">signUpLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WordPress_Automation_Suite-class-passed -->
+          <div class="suite-WordPress_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gazt.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="featureLinkTest">
+                  </a> <!-- featureLinkTest -->
+                  <span class="method-name">featureLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getStartedLinkClick">
+                  </a> <!-- getStartedLinkClick -->
+                  <span class="method-name">getStartedLinkClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLinkClick">
+                  </a> <!-- loginLinkClick -->
+                  <span class="method-name">loginLinkClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="plansAndPricingTest">
+                  </a> <!-- plansAndPricingTest -->
+                  <span class="method-name">plansAndPricingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productLinkTest">
+                  </a> <!-- productLinkTest -->
+                  <span class="method-name">productLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resourcesLinkTest">
+                  </a> <!-- resourcesLinkTest -->
+                  <span class="method-name">resourcesLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startYourWebsiteButtonClick">
+                  </a> <!-- startYourWebsiteButtonClick -->
+                  <span class="method-name">startYourWebsiteButtonClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wordPressLogoTest">
+                  </a> <!-- wordPressLogoTest -->
+                  <span class="method-name">wordPressLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WordPress_Automation_Suite-class-passed -->
+        </div> <!-- panel WordPress_Automation_Suite -->
+        <div panel-name="test-xml-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium\ProjectSpace\WordPress\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;WordPress Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.gazt.utilities.Transformer&quot;/&gt;
+    &lt;listener class-name=&quot;com.gazt.utilities.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Smoke Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gazt.testcases.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Smoke Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.gazt.testcases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Test2 --&gt;
+&lt;/suite&gt; &lt;!-- WordPress Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WordPress Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Smoke Test2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WordPress Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WordPress Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WordPress_Automation_Suite');
+function tableData_WordPress_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginLinkClick')
+data.setCell(0, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(0, 3, 7874);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getStartedLinkClick')
+data.setCell(1, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(1, 3, 4449);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'startYourWebsiteButtonClick')
+data.setCell(2, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(2, 3, 3741);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'goBackToHomePage')
+data.setCell(3, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(3, 3, 3511);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPageWPLogoTest')
+data.setCell(4, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(4, 3, 1245);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'continueGoogleButton')
+data.setCell(5, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(5, 3, 831);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickContineButton')
+data.setCell(6, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(6, 3, 667);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enterEmailAdressTest')
+data.setCell(7, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(7, 3, 381);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'featureLinkTest')
+data.setCell(8, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(8, 3, 186);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'wordPressLogoTest')
+data.setCell(9, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(9, 3, 178);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'continueButton')
+data.setCell(10, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(10, 3, 101);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signUpLinkTest')
+data.setCell(11, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(11, 3, 58);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'backToHomePage')
+data.setCell(12, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(12, 3, 55);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'productLinkTest')
+data.setCell(13, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(13, 3, 53);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'plansAndPricingTest')
+data.setCell(14, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(14, 3, 52);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginAccountHeaderTest')
+data.setCell(15, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(15, 3, 51);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'emailAdressTest')
+data.setCell(16, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(16, 3, 48);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'resourcesLinkTest')
+data.setCell(17, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(17, 3, 47);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'lostPasswordLink')
+data.setCell(18, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(18, 3, 46);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'emailMeLink')
+data.setCell(19, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(19, 3, 45);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'homePageTitleTest')
+data.setCell(20, 2, 'com.gazt.testcases.HomePageTest')
+data.setCell(20, 3, 41);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginPageTitleTest')
+data.setCell(21, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(21, 3, 27);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginPageTitleTest')
+data.setCell(22, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(22, 3, 13);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginPageTitleTest')
+data.setCell(23, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(23, 3, 10);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginPageTitleTest')
+data.setCell(24, 2, 'com.gazt.testcases.LoginPageTest')
+data.setCell(24, 3, 8);
+window.suiteTableData['WordPress_Automation_Suite']= { tableData: data, tableDiv: 'times-div-WordPress_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-WordPress_Automation_Suite">
+              </div> <!-- times-div-WordPress_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WordPress Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WordPress_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gazt.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">66979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">wordPressLogoTest</span>
+                <span class="method-start">67033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productLinkTest</span>
+                <span class="method-start">67213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">featureLinkTest</span>
+                <span class="method-start">67269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">resourcesLinkTest</span>
+                <span class="method-start">67457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">plansAndPricingTest</span>
+                <span class="method-start">67506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginLinkClick</span>
+                <span class="method-start">67561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getStartedLinkClick</span>
+                <span class="method-start">75438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">startYourWebsiteButtonClick</span>
+                <span class="method-start">79890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83635 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gazt.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89691 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">111047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">111154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">111186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">111199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageWPLogoTest</span>
+                <span class="method-start">111210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpLinkTest</span>
+                <span class="method-start">112457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginAccountHeaderTest</span>
+                <span class="method-start">112517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailAdressTest</span>
+                <span class="method-start">112570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continueButton</span>
+                <span class="method-start">112620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">continueGoogleButton</span>
+                <span class="method-start">112723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailMeLink</span>
+                <span class="method-start">113556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lostPasswordLink</span>
+                <span class="method-start">113602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">113650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goBackToHomePage</span>
+                <span class="method-start">113707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmailAdressTest</span>
+                <span class="method-start">117222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickContineButton</span>
+                <span class="method-start">117605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118275 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

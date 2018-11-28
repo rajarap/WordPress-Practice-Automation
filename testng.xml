@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WordPress Automation Suite">
+	<listeners>
+		<listener class-name="com.gazt.utilities.Transformer"></listener>
+		<listener class-name="com.gazt.utilities.CustomListener"></listener>
+	</listeners>
+	
+	<test name="Smoke Test1">
+		<classes>
+			<class name="com.gazt.testcases.HomePageTest" />
+		</classes> 
+	</test> 
+  	<test name="Smoke Test2">
+    	<classes>
+      		<class name="com.gazt.testcases.LoginPageTest"/> 
+    	</classes> 
+ 	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
