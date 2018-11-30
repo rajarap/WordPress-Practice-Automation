@@ -2,64 +2,64 @@
 <testng-results skipped="3" failed="1" ignored="0" total="25" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="WordPress Automation Suite" duration-ms="121888" started-at="2018-11-27T18:58:55Z" finished-at="2018-11-27T19:00:56Z">
+  <suite name="WordPress Automation Suite" duration-ms="149495" started-at="2018-11-28T16:09:34Z" finished-at="2018-11-28T16:12:03Z">
     <groups>
     </groups>
-    <test name="Smoke Test1" duration-ms="88883" started-at="2018-11-27T18:58:55Z" finished-at="2018-11-27T19:00:23Z">
+    <test name="Smoke Test1" duration-ms="96505" started-at="2018-11-28T16:09:34Z" finished-at="2018-11-28T16:11:10Z">
       <class name="com.gazt.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="setUp" is-config="true" duration-ms="66949" started-at="2018-11-27T18:58:55Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="setUp" is-config="true" duration-ms="50636" started-at="2018-11-28T16:09:34Z" finished-at="2018-11-28T16:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="homePageTitleTest" duration-ms="41" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="homePageTitleTest" duration-ms="234" started-at="2018-11-28T16:10:25Z" finished-at="2018-11-28T16:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="wordPressLogoTest()[pri:2, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="wordPressLogoTest" duration-ms="178" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="wordPressLogoTest()[pri:2, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="wordPressLogoTest" duration-ms="489" started-at="2018-11-28T16:10:25Z" finished-at="2018-11-28T16:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wordPressLogoTest -->
-        <test-method status="PASS" signature="productLinkTest()[pri:3, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="productLinkTest" duration-ms="53" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="productLinkTest()[pri:3, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="productLinkTest" duration-ms="78" started-at="2018-11-28T16:10:25Z" finished-at="2018-11-28T16:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productLinkTest -->
-        <test-method status="PASS" signature="featureLinkTest()[pri:4, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="featureLinkTest" duration-ms="186" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="featureLinkTest()[pri:4, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="featureLinkTest" duration-ms="81" started-at="2018-11-28T16:10:25Z" finished-at="2018-11-28T16:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- featureLinkTest -->
-        <test-method status="PASS" signature="resourcesLinkTest()[pri:5, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="resourcesLinkTest" duration-ms="47" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="resourcesLinkTest()[pri:5, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="resourcesLinkTest" duration-ms="104" started-at="2018-11-28T16:10:26Z" finished-at="2018-11-28T16:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesLinkTest -->
-        <test-method status="PASS" signature="plansAndPricingTest()[pri:6, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="plansAndPricingTest" duration-ms="52" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:02Z">
+        <test-method status="PASS" signature="plansAndPricingTest()[pri:6, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="plansAndPricingTest" duration-ms="734" started-at="2018-11-28T16:10:26Z" finished-at="2018-11-28T16:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- plansAndPricingTest -->
-        <test-method status="PASS" signature="loginLinkClick()[pri:7, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="loginLinkClick" duration-ms="7874" started-at="2018-11-27T19:00:02Z" finished-at="2018-11-27T19:00:10Z">
+        <test-method status="PASS" signature="loginLinkClick()[pri:7, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="loginLinkClick" duration-ms="18443" started-at="2018-11-28T16:10:26Z" finished-at="2018-11-28T16:10:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLinkClick -->
-        <test-method status="PASS" signature="getStartedLinkClick()[pri:8, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="getStartedLinkClick" duration-ms="4449" started-at="2018-11-27T19:00:10Z" finished-at="2018-11-27T19:00:15Z">
+        <test-method status="PASS" signature="getStartedLinkClick()[pri:8, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="getStartedLinkClick" duration-ms="18355" started-at="2018-11-28T16:10:45Z" finished-at="2018-11-28T16:11:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedLinkClick -->
-        <test-method status="PASS" signature="startYourWebsiteButtonClick()[pri:9, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="startYourWebsiteButtonClick" duration-ms="3741" started-at="2018-11-27T19:00:15Z" finished-at="2018-11-27T19:00:18Z">
+        <test-method status="PASS" signature="startYourWebsiteButtonClick()[pri:9, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="startYourWebsiteButtonClick" duration-ms="2584" started-at="2018-11-28T16:11:03Z" finished-at="2018-11-28T16:11:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startYourWebsiteButtonClick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="tearDown" is-config="true" duration-ms="5224" started-at="2018-11-27T19:00:18Z" finished-at="2018-11-27T19:00:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gazt.testcases.HomePageTest@23bb8443]" name="tearDown" is-config="true" duration-ms="4553" started-at="2018-11-28T16:11:06Z" finished-at="2018-11-28T16:11:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gazt.testcases.HomePageTest -->
     </test> <!-- Smoke Test1 -->
-    <test name="Smoke Test2" duration-ms="32176" started-at="2018-11-27T19:00:24Z" finished-at="2018-11-27T19:00:56Z">
+    <test name="Smoke Test2" duration-ms="52098" started-at="2018-11-28T16:11:11Z" finished-at="2018-11-28T16:12:03Z">
       <class name="com.gazt.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="setUp" is-config="true" duration-ms="21355" started-at="2018-11-27T19:00:24Z" finished-at="2018-11-27T19:00:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="setUp" is-config="true" duration-ms="37053" started-at="2018-11-28T16:11:11Z" finished-at="2018-11-28T16:11:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="13" started-at="2018-11-27T19:00:46Z" finished-at="2018-11-27T19:00:46Z">
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="9" started-at="2018-11-28T16:11:48Z" finished-at="2018-11-28T16:11:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Log In - WordPress.com] but found [WordPress.com]]]>
@@ -104,7 +104,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="27" started-at="2018-11-27T19:00:46Z" finished-at="2018-11-27T19:00:46Z">
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="10" started-at="2018-11-28T16:11:48Z" finished-at="2018-11-28T16:11:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Log In - WordPress.com] but found [WordPress.com]]]>
@@ -149,7 +149,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="10" started-at="2018-11-27T19:00:46Z" finished-at="2018-11-27T19:00:46Z">
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="9" started-at="2018-11-28T16:11:48Z" finished-at="2018-11-28T16:11:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Log In - WordPress.com] but found [WordPress.com]]]>
@@ -194,7 +194,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="FAIL" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="8" started-at="2018-11-27T19:00:46Z" finished-at="2018-11-27T19:00:46Z">
+        <test-method status="FAIL" signature="loginPageTitleTest()[pri:1, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageTitleTest" duration-ms="10" started-at="2018-11-28T16:11:48Z" finished-at="2018-11-28T16:11:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Log In - WordPress.com] but found [WordPress.com]]]>
@@ -239,55 +239,55 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="loginPageWPLogoTest()[pri:2, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageWPLogoTest" duration-ms="1245" started-at="2018-11-27T19:00:46Z" finished-at="2018-11-27T19:00:47Z">
+        <test-method status="PASS" signature="loginPageWPLogoTest()[pri:2, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginPageWPLogoTest" duration-ms="1397" started-at="2018-11-28T16:11:49Z" finished-at="2018-11-28T16:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageWPLogoTest -->
-        <test-method status="PASS" signature="signUpLinkTest()[pri:3, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="signUpLinkTest" duration-ms="58" started-at="2018-11-27T19:00:47Z" finished-at="2018-11-27T19:00:47Z">
+        <test-method status="PASS" signature="signUpLinkTest()[pri:3, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="signUpLinkTest" duration-ms="61" started-at="2018-11-28T16:11:50Z" finished-at="2018-11-28T16:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpLinkTest -->
-        <test-method status="PASS" signature="loginAccountHeaderTest()[pri:4, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginAccountHeaderTest" duration-ms="51" started-at="2018-11-27T19:00:47Z" finished-at="2018-11-27T19:00:47Z">
+        <test-method status="PASS" signature="loginAccountHeaderTest()[pri:4, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="loginAccountHeaderTest" duration-ms="47" started-at="2018-11-28T16:11:50Z" finished-at="2018-11-28T16:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAccountHeaderTest -->
-        <test-method status="PASS" signature="emailAdressTest()[pri:5, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="emailAdressTest" duration-ms="48" started-at="2018-11-27T19:00:47Z" finished-at="2018-11-27T19:00:47Z">
+        <test-method status="PASS" signature="emailAdressTest()[pri:5, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="emailAdressTest" duration-ms="51" started-at="2018-11-28T16:11:50Z" finished-at="2018-11-28T16:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailAdressTest -->
-        <test-method status="PASS" signature="continueButton()[pri:6, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="continueButton" duration-ms="101" started-at="2018-11-27T19:00:47Z" finished-at="2018-11-27T19:00:47Z">
+        <test-method status="PASS" signature="continueButton()[pri:6, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="continueButton" duration-ms="57" started-at="2018-11-28T16:11:50Z" finished-at="2018-11-28T16:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continueButton -->
-        <test-method status="PASS" signature="continueGoogleButton()[pri:7, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="continueGoogleButton" duration-ms="831" started-at="2018-11-27T19:00:47Z" finished-at="2018-11-27T19:00:48Z">
+        <test-method status="PASS" signature="continueGoogleButton()[pri:7, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="continueGoogleButton" duration-ms="3229" started-at="2018-11-28T16:11:50Z" finished-at="2018-11-28T16:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continueGoogleButton -->
-        <test-method status="PASS" signature="emailMeLink()[pri:7, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="emailMeLink" duration-ms="45" started-at="2018-11-27T19:00:48Z" finished-at="2018-11-27T19:00:48Z">
+        <test-method status="PASS" signature="emailMeLink()[pri:7, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="emailMeLink" duration-ms="54" started-at="2018-11-28T16:11:53Z" finished-at="2018-11-28T16:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailMeLink -->
-        <test-method status="PASS" signature="lostPasswordLink()[pri:8, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="lostPasswordLink" duration-ms="46" started-at="2018-11-27T19:00:48Z" finished-at="2018-11-27T19:00:48Z">
+        <test-method status="PASS" signature="lostPasswordLink()[pri:8, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="lostPasswordLink" duration-ms="49" started-at="2018-11-28T16:11:53Z" finished-at="2018-11-28T16:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lostPasswordLink -->
-        <test-method status="PASS" signature="backToHomePage()[pri:9, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="backToHomePage" duration-ms="55" started-at="2018-11-27T19:00:48Z" finished-at="2018-11-27T19:00:48Z">
+        <test-method status="PASS" signature="backToHomePage()[pri:9, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="backToHomePage" duration-ms="53" started-at="2018-11-28T16:11:54Z" finished-at="2018-11-28T16:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method status="PASS" signature="goBackToHomePage()[pri:10, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="goBackToHomePage" duration-ms="3511" started-at="2018-11-27T19:00:48Z" finished-at="2018-11-27T19:00:52Z">
+        <test-method status="PASS" signature="goBackToHomePage()[pri:10, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="goBackToHomePage" duration-ms="5723" started-at="2018-11-28T16:11:54Z" finished-at="2018-11-28T16:11:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToHomePage -->
-        <test-method status="PASS" signature="enterEmailAdressTest()[pri:11, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="enterEmailAdressTest" duration-ms="381" started-at="2018-11-27T19:00:52Z" finished-at="2018-11-27T19:00:52Z">
+        <test-method status="PASS" signature="enterEmailAdressTest()[pri:11, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="enterEmailAdressTest" duration-ms="220" started-at="2018-11-28T16:11:59Z" finished-at="2018-11-28T16:12:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmailAdressTest -->
-        <test-method status="PASS" signature="clickContineButton()[pri:12, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="clickContineButton" duration-ms="667" started-at="2018-11-27T19:00:52Z" finished-at="2018-11-27T19:00:53Z">
+        <test-method status="PASS" signature="clickContineButton()[pri:12, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="clickContineButton" duration-ms="271" started-at="2018-11-28T16:12:00Z" finished-at="2018-11-28T16:12:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContineButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="tearDown" is-config="true" duration-ms="3589" started-at="2018-11-27T19:00:53Z" finished-at="2018-11-27T19:00:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gazt.testcases.LoginPageTest@797badd3]" name="tearDown" is-config="true" duration-ms="3496" started-at="2018-11-28T16:12:00Z" finished-at="2018-11-28T16:12:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

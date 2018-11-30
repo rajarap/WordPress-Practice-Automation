@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WordPress Automation Suite]">
+  <listeners>
+    <listener class-name="com.gazt.utilities.Transformer"/>
+    <listener class-name="com.gazt.utilities.CustomListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Smoke Test1(failed)">
+    <classes>
+      <class name="com.gazt.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginLinkClick"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gazt.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Smoke Test1(failed) -->
+  <test thread-count="5" verbose="0" name="Smoke Test2(failed)">
+    <classes>
+      <class name="com.gazt.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginPageWPLogoTest"/>
+        </methods>
+      </class> <!-- com.gazt.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Smoke Test2(failed) -->
+</suite> <!-- Failed suite [WordPress Automation Suite] -->

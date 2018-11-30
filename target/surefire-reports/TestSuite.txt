@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 133.351 s <<< FAILURE! - in TestSuite
+loginPageTitleTest(com.gazt.testcases.LoginPageTest)  Time elapsed: 0.266 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:56)
+
+loginPageWPLogoTest(com.gazt.testcases.LoginPageTest)  Time elapsed: 0.135 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageWPLogoTest(LoginPageTest.java:65)
+

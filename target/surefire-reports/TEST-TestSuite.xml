@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="133.351" tests="29" errors="0" skipped="7" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Selenium\ProjectSpace\WordPress\target\test-classes;D:\Selenium\ProjectSpace\WordPress\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\4.0.5\extentreports-4.0.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire9220576630844574021\surefirebooter559455236622134256.jar C:\Windows\Temp\surefire9220576630844574021 2018-11-30T10-59-12_938-jvmRun1 surefire387315103459059660tmp surefire_05018652119827932317tmp"/>
+    <property name="surefire.test.class.path" value="D:\Selenium\ProjectSpace\WordPress\target\test-classes;D:\Selenium\ProjectSpace\WordPress\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\4.0.5\extentreports-4.0.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="basedir" value="D:\Selenium\ProjectSpace\WordPress"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire9220576630844574021\surefirebooter559455236622134256.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="DESKTOP-KHVE45V$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="D:\Selenium\ProjectSpace\WordPress"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Technical QA\Softwares\apache-maven-3.5.2/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Selenium;D:\Technical QA\Softwares\apache-ant-1.9.7\bin;D:\Technical QA\Softwares\apache-maven-3.5.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Technical\Softwares\axis2-1.6.2\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Mozilla Firefox\firefox.exe;C:\Users\Prabhu\AppData\Local\Programs\Python\Python36-32;C:\Users\Prabhu\AppData\Local\Programs\Python\Python36-32\Lib\site-packages;C:\Users\Prabhu\AppData\Local\Programs\Python\Python36-32\Lib;C:\Users\Prabhu\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\selenium\webdriver;C:\Users\Prabhu\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\selenium\common;C:\Users\Prabhu\AppData\Local\Programs\Python\Python36-32\Lib\site-packages\urllib3;D:\TechnicalPrograms\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="homePageTitleTest" classname="com.gazt.testcases.HomePageTest" time="0.023"/>
+  <testcase name="wordPressLogoTest" classname="com.gazt.testcases.HomePageTest" time="0.163"/>
+  <testcase name="productLinkTest" classname="com.gazt.testcases.HomePageTest" time="0.097"/>
+  <testcase name="featureLinkTest" classname="com.gazt.testcases.HomePageTest" time="0.475"/>
+  <testcase name="resourcesLinkTest" classname="com.gazt.testcases.HomePageTest" time="0.241"/>
+  <testcase name="plansAndPricingTest" classname="com.gazt.testcases.HomePageTest" time="0.117"/>
+  <testcase name="loginLinkClick" classname="com.gazt.testcases.HomePageTest" time="0">
+    <skipped message="Timeout loading page after 40000ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-KHVE45V&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 29320, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: baca3d13-e523-4ea8-a24f-28d96a541d56"/>
+    <system-out><![CDATA[loginLinkClick STARTED!
+11-30-2018 10:59:47 HomePageTest.java INFO  [main] testcases.HomePageTest 86 - Verifying if Login Page is displayed by clicking Log In link from Home Page
+11-30-2018 10:59:53 TestBase.java INFO  [main] testbase.TestBase 35 - loading config.properties file
+loginLinkClick...SKIPPED!
+]]></system-out>
+    <system-err><![CDATA[JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 87: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8907854, line 87: unreachable code after return statement
+Nov 30, 2018 11:00:33 AM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="loginLinkClick" classname="com.gazt.testcases.HomePageTest" time="9.112"/>
+  <testcase name="getStartedLinkClick" classname="com.gazt.testcases.HomePageTest" time="6.452"/>
+  <testcase name="startYourWebsiteButtonClick" classname="com.gazt.testcases.HomePageTest" time="3.393"/>
+  <testcase name="loginPageTitleTest" classname="com.gazt.testcases.LoginPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com]"/>
+    <system-out><![CDATA[11-30-2018 11:00:52 HomePageTest.java INFO  [main] testcases.HomePageTest 109 - Closing driver object
+Extent Reports Version 3  Test Suite is ending!
+11-30-2018 11:00:57 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:57 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+11-30-2018 11:00:57 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+11-30-2018 11:00:57 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+11-30-2018 11:00:58 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/WINDOWS/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.5/extentreports-4.0.5.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+Extent Reports Version 3 Test Suite started!
+11-30-2018 11:00:58 LoginPageTest.java INFO  [main] testcases.LoginPageTest 32 - Invoking TestBase initialize method from setUp() from Login Page Test
+11-30-2018 11:00:58 TestBase.java INFO  [main] testbase.TestBase 48 - Initializing browser and accessing application
+11-30-2018 11:01:16 TestBase.java INFO  [main] testbase.TestBase 35 - loading config.properties file
+11-30-2018 11:01:16 TestBase.java INFO  [main] testbase.TestBase 35 - loading config.properties file
+11-30-2018 11:01:20 TestBase.java INFO  [main] testbase.TestBase 35 - loading config.properties file
+loginPageTitleTest STARTED!
+11-30-2018 11:01:20 LoginPageTest.java INFO  [main] testcases.LoginPageTest 53 - Verifying Login Page Title
+loginPageTitleTest...SKIPPED!
+]]></system-out>
+    <system-err><![CDATA[1543555852437	Marionette	INFO	Stopped listening on port 59629
+[Parent 29320, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 29320, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543555858896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile.sJOIhwgMGMbM"
+1543555865809	Marionette	INFO	Listening on port 59761
+1543555866342	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 30, 2018 11:01:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.gazt.testcases.LoginPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]"/>
+    <system-out><![CDATA[loginPageTitleTest STARTED!
+11-30-2018 11:01:20 LoginPageTest.java INFO  [main] testcases.LoginPageTest 53 - Verifying Login Page Title
+loginPageTitleTest...SKIPPED!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.gazt.testcases.LoginPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]"/>
+    <system-out><![CDATA[loginPageTitleTest STARTED!
+11-30-2018 11:01:20 LoginPageTest.java INFO  [main] testcases.LoginPageTest 53 - Verifying Login Page Title
+loginPageTitleTest...SKIPPED!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.gazt.testcases.LoginPageTest" time="0.266">
+    <failure message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:56)
+</failure>
+    <system-out><![CDATA[loginPageTitleTest STARTED!
+11-30-2018 11:01:20 LoginPageTest.java INFO  [main] testcases.LoginPageTest 53 - Verifying Login Page Title
+loginPageTitleTest...FAILED!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageWPLogoTest" classname="com.gazt.testcases.LoginPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]"/>
+    <system-out><![CDATA[loginPageWPLogoTest STARTED!
+11-30-2018 11:01:20 LoginPageTest.java INFO  [main] testcases.LoginPageTest 62 - Verifying WordPress Logo on Login Page
+loginPageWPLogoTest...SKIPPED!
+]]></system-out>
+    <system-err><![CDATA[console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageWPLogoTest" classname="com.gazt.testcases.LoginPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]"/>
+    <system-out><![CDATA[loginPageWPLogoTest STARTED!
+11-30-2018 11:01:22 LoginPageTest.java INFO  [main] testcases.LoginPageTest 62 - Verifying WordPress Logo on Login Page
+loginPageWPLogoTest...SKIPPED!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageWPLogoTest" classname="com.gazt.testcases.LoginPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]"/>
+    <system-out><![CDATA[loginPageWPLogoTest STARTED!
+11-30-2018 11:01:22 LoginPageTest.java INFO  [main] testcases.LoginPageTest 62 - Verifying WordPress Logo on Login Page
+loginPageWPLogoTest...SKIPPED!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageWPLogoTest" classname="com.gazt.testcases.LoginPageTest" time="0.135">
+    <failure message="The following asserts failed:&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com],&#10;	expected [Log In - WordPress.com] but found [WordPress.com]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com],
+	expected [Log In - WordPress.com] but found [WordPress.com]
+	at com.gazt.testcases.LoginPageTest.loginPageWPLogoTest(LoginPageTest.java:65)
+</failure>
+    <system-out><![CDATA[loginPageWPLogoTest STARTED!
+11-30-2018 11:01:22 LoginPageTest.java INFO  [main] testcases.LoginPageTest 62 - Verifying WordPress Logo on Login Page
+loginPageWPLogoTest...FAILED!
+]]></system-out>
+  </testcase>
+  <testcase name="signUpLinkTest" classname="com.gazt.testcases.LoginPageTest" time="0.067"/>
+  <testcase name="loginAccountHeaderTest" classname="com.gazt.testcases.LoginPageTest" time="0.067"/>
+  <testcase name="emailAdressTest" classname="com.gazt.testcases.LoginPageTest" time="0.075"/>
+  <testcase name="continueButton" classname="com.gazt.testcases.LoginPageTest" time="0.068"/>
+  <testcase name="continueGoogleButton" classname="com.gazt.testcases.LoginPageTest" time="2.64"/>
+  <testcase name="emailMeLink" classname="com.gazt.testcases.LoginPageTest" time="0.056"/>
+  <testcase name="lostPasswordLink" classname="com.gazt.testcases.LoginPageTest" time="0.061"/>
+  <testcase name="backToHomePage" classname="com.gazt.testcases.LoginPageTest" time="0.062"/>
+  <testcase name="goBackToHomePage" classname="com.gazt.testcases.LoginPageTest" time="4.304"/>
+  <testcase name="enterEmailAdressTest" classname="com.gazt.testcases.LoginPageTest" time="0.378"/>
+  <testcase name="clickContineButton" classname="com.gazt.testcases.LoginPageTest" time="0.297"/>
+</testsuite>

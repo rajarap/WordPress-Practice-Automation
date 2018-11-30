@@ -1,10 +1,11 @@
 package com.gazt.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.apache.log4j.Logger;
+import org.testng.asserts.SoftAssert;
 
 import com.gazt.pages.HomePage;
 import com.gazt.pages.LoginPage;
@@ -16,8 +17,9 @@ public class LoginPageTest extends TestBase
 	HomePage homepage;
 	LoginPage loginpage;
 	LoginPasswordPage loginpasswordpage;
-	
+		
 	Logger log = Logger.getLogger(LoginPageTest.class);
+	SoftAssert softassert; 
 	
 	public LoginPageTest()
 	{
@@ -32,6 +34,7 @@ public class LoginPageTest extends TestBase
 		homepage = new HomePage();
 		loginpage = new LoginPage();
 		loginpage = homepage.login();
+		softassert = new SoftAssert();
 	}
 	
 	@AfterClass
@@ -49,7 +52,8 @@ public class LoginPageTest extends TestBase
 	{
 		log.info("Verifying Login Page Title");
 		String loginpagetitle = loginpage.validateLoginPageTitle();
-		Assert.assertEquals(loginpagetitle, "Log In - WordPress.com");
+		softassert.assertEquals(loginpagetitle, "Log In - WordPress.com");
+		softassert.assertAll();
 	}
 	
 	@Test(priority=2)
@@ -57,7 +61,8 @@ public class LoginPageTest extends TestBase
 	{
 		log.info("Verifying WordPress Logo on Login Page");
 		boolean flag = loginpage.validateLogo();
-		Assert.assertTrue(flag, "WordPress logo is not displayed on the LoginPage");
+		softassert.assertTrue(flag, "WordPress logo is not displayed on the LoginPage");
+		softassert.assertAll();
 	}
 	
 	@Test(priority=3)
